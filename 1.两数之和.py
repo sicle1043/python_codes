@@ -3,6 +3,8 @@
 #
 # [1] 两数之和
 #
+
+
 class Solution(object):
     def twoSum(self, nums, target):
         """
@@ -24,4 +26,3 @@ if __name__ == "__main__":
     solution = Solution()
     result = solution.twoSum(nums, target)
     print(result)
-
